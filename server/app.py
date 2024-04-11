@@ -19,6 +19,7 @@ migrate = Migrate(app, db)
 
 db.init_app(app)
 
+#Home route
 @app.route('/')
 def index():
     return '<h1>Code challenge</h1>'
